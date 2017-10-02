@@ -9,7 +9,7 @@ import org.junit.Test;
  */
 public class AppBeanTest {
 	@Test
-	public void testPrint(){
+	public void testAppend(){
 		String appName = "Test Name";
 		AppBean appBean = new AppBean("Test Name","app");
 		assertEquals(appName+".app",appBean.append());
